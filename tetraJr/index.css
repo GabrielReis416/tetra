@@ -1,0 +1,372 @@
+/* Color Theme Swatches in RGBA */
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-1-rgba { color: rgba(18, 114, 105, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-2-rgba { color: rgba(15, 63, 58, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-3-rgba { color: rgba(137, 165, 162, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-4-rgba { color: rgba(75, 89, 87, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-5-rgba { color: rgba(191, 191, 191, 1); }
+
+/* Color Theme Swatches in HSLA */
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-1-hsla { color: hsla(174, 72, 26, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-2-hsla { color: hsla(174, 60, 15, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-3-hsla { color: hsla(174, 13, 59, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-4-hsla { color: hsla(174, 8, 32, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-5-hsla { color: hsla(0, 0, 75, 1); }
+
+/* NavBar/Gabriel */
+html{
+    width: auto;
+    margin: auto;
+    min-width: 900px;
+    min-width: 900px;
+    scroll-behavior: smooth;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.header {
+    background-color: #127369; ;
+    position: fixed;
+    width: 100%;
+}
+.nav {
+    max-width: 90%;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.nav-list {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    
+}
+.nav-list a{
+    font-size: 20px;
+    color: white;
+    
+    
+}
+
+/*  end NavBar/Gabriel */
+
+/*  principal/Gabriel */
+
+body{
+    margin: auto;
+    width: auto;
+}
+    
+    
+.container1{
+    padding: 10%;
+    margin: auto;
+    background-color:rgba(15, 63, 58, 1);
+    
+}
+.container2{
+    padding: 20px;
+    margin: auto;
+    background-color:#127369;;
+}
+.container3{
+    padding: 10%;
+    margin: auto;
+    background-color:rgba(137, 165, 162, 1);
+}
+.container4{
+    padding: 10%;
+    margin: auto;
+    background-color:rgba(137, 165, 162, 1);
+    }
+.container5{
+    padding: 10%;
+    margin: auto;
+    background-color:white;
+}
+
+main .princ{
+    display: flex;
+    align-items: center;
+    justify-content: a;
+    font-size: 30px;
+    margin-left: 2px;
+    color:  black;
+    
+}
+.titulo{
+    width: 50%;
+
+}
+.solucoes{
+    width: 250px;
+    font-size: 30px;
+    background-color:rgb(80, 163, 158) ;
+    margin-left: 6px;
+    border-radius: 10px;
+    margin-top: 30px;
+    align-items: center;
+    padding: 20px;
+}
+.solucoes a{
+    text-align: center;
+    color: black;
+    
+ }
+.logo_capa{
+    margin-left: 10%;
+}
+
+.ebook-link{
+    width: 250px;
+    font-size: 30px;
+    background-color:rgb(80, 163, 158) ;
+    margin-left: 6px;
+    border-radius: 10px;
+    margin-top: 30px;
+    align-items: center;
+ }
+ .ebook-link a{
+    text-align: center;
+    color: white;
+    margin-left: 50px;
+ }
+
+.membros{
+    width: 10px;
+}
+/*  end principal/Gabriel */
+/*  valores/Gabriel */
+.valores{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px;
+    color: white;
+}
+/*  end valores/Gabriel */
+/*  ebook/Gabriel */
+.ebook {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-left: 2px;
+    color: white;
+}
+/*   end ebook/Gabriel */
+
+.membros{
+    width: auto;
+}
+.visao{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.e1{
+    background-color:rgba(15, 63, 58, 1) ;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    margin-left: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    width: 20%;
+    
+}
+.e1 h3{
+    text-align: center;
+}
+.e1 li{
+    margin-left:  10px;
+}
+/*   sobre/Gabriel */
+.sobre{
+    font-size: 25px;
+}
+/*    end sobre/Gabriel */
+
+
+/*    caracter/Gabriel */
+
+.c1{
+    background-color:rgba(15, 63, 58, 1) ;
+    font-size: 20px;
+    padding: 35px;
+    color: white;
+    margin-left: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    width: auto;
+    
+}
+.c1 h2{
+    text-align: center;
+}
+/*    end caracter/Gabriel */
+.residuos-container{
+    display: flex;
+    align-items: flex-start; 
+    width: 100%; 
+}
+
+.residuos-img{
+    width: 100%;
+}
+
+.residuos-text ul li{
+    list-style-type: none; 
+}
+
+.consultoria-container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.consultoria-text ul li{
+    list-style-type: none;
+}
+
+.analises-container{
+    display: flex;
+    align-items: flex-start; 
+    width: 100%;
+}
+
+.analises-text {
+    width: 60%;
+}
+
+.conlultoria{
+    width: 5%;
+}
+
+.analises-text ul li{
+    list-style-type: none;
+}
+
+.analises-img img {
+    width: 100%;
+}
+
+.analisefalhas-container{ display: flex;
+    align-items: flex-start; 
+    width: 100%;}
+
+.container{
+        display: flex;
+        align-items: flex-start; 
+        width: 100%;
+    }
+.ensaios-txt{ width: 60%;}
+.ensaios-img{   
+     width: auto; }
+
+
+/*    footer/Gabriel */
+
+footer{
+    background-color:#127369;  
+}
+footer h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 35px;
+}
+footer p{
+    font-size: 25px;
+}
+.empresasflex{display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    background-color: #127369; ;
+    
+}
+.empresasflex2{display: flex;
+    justify-content: space-evenly;
+    background-color: #127369; ;
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
+    overflow: hidden;
+    
+ }
+
+.tam{width: 120px; }
+.tam2{
+    width: 50px; 
+}
+
+/*    end footer /Gabriel */
+
+/*    atuacao /Gabriel */
+.atuacao{
+    align-items: center;
+    font-size: 30px;
+    margin-left: 2px;
+    color: white;
+}
+
+@media (max-width:767px) {
+  html{
+    width: 100%;
+    
+    text-align: left;
+    max-width: 768px;
+  }
+
+    
+  }
+
+
+main .atuacao{
+    display:inline;
+    align-items: center;
+    font-size: 2px;
+    margin-left: 1px;
+}
+.container1{
+    padding: none;
+    margin: auto;
+    background-color:rgba(15, 63, 58, 1);
+    
+}
+.container2{
+    padding: 20px;
+    margin: auto;
+    background-color:#127369;;
+}
+.container3{
+    padding: 10%;
+    margin: auto;
+    background-color:rgba(137, 165, 162, 1);
+}
+.container4{
+    padding: 10%;
+    margin: auto;
+    background-color:rgba(137, 165, 162, 1);
+    }
+    .nav-list a{
+        font-size: 20px;
+        color: white;
+}
+.h1{
+    font-size: 10px;
+}
+    main .atuacao .p{
+    font-size: 10px;
+}
+
+
+/*    end atuacao /Gabriel */
