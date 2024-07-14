@@ -1,5 +1,3 @@
-
-    
 /* Color Theme Swatches in RGBA */
 .N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-1-rgba { color: rgba(18, 114, 105, 1); }
 .N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-2-rgba { color: rgba(15, 63, 58, 1); }
@@ -319,55 +317,56 @@ footer p{
     margin-left: 2px;
     color: white;
 }
-/* Consultas de Mídia */
-@media (max-width: 767px) {
-    .header {
-        position: static; /* Para navegação não fixa em telas menores */
-    }
 
-    .nav {
-        font-size: 32px;
-        
-    }
+@media (max-width:767px) {
+  html{
+    width: 100%;
+    
+    text-align: left;
+    max-width: 768px;
+  }
 
-    .nav-list {
-        
-        gap: 10px;
-    }
+    
+  }
 
-    .solucoes, .ebook-link {
-        width: 100%; /* Ajustado para telas menores */
-        font-size: 16px; /* Ajustado para telas menores */
-    }
 
-    .container1, .container2, .container3, .container4, .container5 {
-         /* Ajustado para telas menores */
-         width: auto;
-    }
-
-    .valores, .ebook, .visao {
-        font-size: 16px; /* Ajustado para telas menores */
-        
-    }
-
-    .e1, .c1 {
-        width: auto; /* Ajustado para telas menores */
-        font-size: 14px; /* Ajustado para telas menores */
-    }
-
-    footer h1 {
-        font-size: 18px; /* Ajustado para telas menores */
-    }
-
-    footer p {
-        font-size: 14px; /* Ajustado para telas menores */
-    }
-
-    .tam {
-        width: 100px; /* Ajustado para telas menores */
-    }
-
-    .tam2 {
-        width: 50px; /* Ajustado para telas menores */
-    }
+main .atuacao{
+    display:inline;
+    align-items: center;
+    font-size: 2px;
+    margin-left: 1px;
 }
+.container1{
+    padding: none;
+    margin: auto;
+    background-color:rgba(15, 63, 58, 1);
+    
+}
+.container2{
+    padding: 20px;
+    margin: auto;
+    background-color:#127369;;
+}
+.container3{
+    padding: 10%;
+    margin: auto;
+    background-color:rgba(137, 165, 162, 1);
+}
+.container4{
+    padding: 10%;
+    margin: auto;
+    background-color:rgba(137, 165, 162, 1);
+    }
+    .nav-list a{
+        font-size: 20px;
+        color: white;
+}
+.h1{
+    font-size: 10px;
+}
+    main .atuacao .p{
+    font-size: 10px;
+}
+
+
+/*    end atuacao /Gabriel */
