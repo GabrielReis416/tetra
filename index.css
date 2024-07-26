@@ -13,8 +13,11 @@
 .N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-5-hsla { color: hsla(0, 0, 75, 1); }
 
 html{
-    width: auto;
-    margin: auto;
+    
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+        
     scroll-behavior: smooth;
 }
 * {
@@ -23,6 +26,11 @@ html{
 }
 body {
     font-family: "Roboto", sans-serif;
+    
+        width: 100%;
+        overflow-x: hidden;
+        font-family: "Roboto", sans-serif;
+
 }
 .logo {
     height: 520px;
@@ -309,11 +317,10 @@ footer p{
     html {
             font-size: 1.5em;
             justify-content: none;
+            overflow-x: hidden;
         }
         
-    img {
-        display: none;
-    }
+   
     .visao{
         display:inline;
         justify-content:center;
@@ -362,18 +369,31 @@ footer p{
             color: white;
             
         }
+        
+        .consultoria-container{
+            flex-direction:row;
+            text-align: center;
+            flex-wrap:wrap ;
+            width: 5%;
+            
+        }
+        .consultoria{
+            align-items: center;
+            width: 10%;
+            }
+        .analises1{
+            display: flex;
+            flex-wrap: wrap;
+            gap:10px;
+        }
+        .container3-wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            gap:10px;
+            flex-direction: column-reverse;
+
+        }
+        
     }
     
  
-
-    
-
-main .princ{
-    
-    align-items: center;
-    
-    font-size: 26px;
-    margin-left: 2px;
-    color: #127369;
-}
-
