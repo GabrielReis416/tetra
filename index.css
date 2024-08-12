@@ -79,115 +79,19 @@
     transition: 0.3s;
   }
   
-  @media (max-width: 750px) {
-    .hamburger {
-      display: block;
-      z-index: 1;
-    }
-  
-    .nav-list {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background: rgba(18, 114, 105, 1);
-      clip-path: circle(100px at 90% -15%);
-      transition: 1s ease-out;
-  
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      gap: 0;
-  
-      pointer-events: none;
-    }
-  
-    .nav-list a {
-      font-size: 24px;
-      opacity: 0;
-    }
-  
-    .nav-list li:nth-child(1) a {
-      transition: 0.5s 0.2s;
-    }
-  
-    .nav-list li:nth-child(2) a {
-      transition: 0.5s 0.4s;
-    }
-  
-    .nav-list li:nth-child(3) a {
-      transition: 0.5s 0.6s;
-    }
-  
-    /* Estilos ativos */
-  
-    .nav.active .nav-list {
-      clip-path: circle(1500px at 90% -15%);
-      pointer-events: all;
-    }
-  
-    .nav.active .nav-list a {
-      opacity: 1;
-    }
-  
-    .nav.active .hamburger {
-      position: fixed;
-      top: 26px;
-      right: 16px;
-      border-top-color: transparent;
-    }
-  
-    .nav.active .hamburger::before {
-      transform: rotate(135deg);
-    }
-  
-    .nav.active .hamburger::after {
-      transform: rotate(-135deg);
-      top: -7px;
-    }
-  }
-
-body{
-    margin: auto;
-    width: auto;
-}
-    
-    
-.container1{
-    padding: 10%;
-    margin: auto;
-    background-color:rgba(15, 63, 58, 1);
-    
-}
-.container2{
-    padding: 20px;
-    margin: auto;
-    background-color:#127369;;
-}
-.container3{
-    padding: 8%;
-    margin: auto;
-    background-color: #ece5d7;
-}
-.container4{
-    padding: 10%;
-    margin: auto;
-    background-color:#ece5d7;
-    }
-
-main .princ{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 26px;
-    margin-left: 2px;
-    color: #127369;
+.titulo{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-size: 26px;
+ margin-left: 2px;
+ color: #127369;
+ margin-top: 20px;
 }
 .titulo{
-    width: 80%;
-
+    width: 50%;
 }
+
 .solucoes{
     width: 250px;
     font-size: 30px;
@@ -204,9 +108,7 @@ main .princ{
     text-align: center;
     color: white;
     font-weight: 600;
-    
- }
-
+}
 
 .ebook-link{
     width: 250px;
@@ -390,87 +292,139 @@ footer p{
     color: white;
 }
 
-@media (max-width: 768px) {
-    html {
-            font-size: 1.5em;
-            justify-content: none;
-            overflow-x: hidden;
-        }
-        
-   
-    .visao{
-        display:inline;
-        justify-content:center;
-        align-items: center;
-    }
-    .e1{
-        background-color:rgba(15, 63, 58, 1) ;
-        font-size: 20px;
-        padding: 20px;
-        color: white;
-        margin-left: 10px;
-        margin: 10px 10px;
-        border-radius: 5px;
-        width: 80%;
-        
-    }
-    .e1 h3{
-        text-align: center;
-    }
-    .e1 li{
-        margin-left:  90px;
-      
-            
-        }
-        a {
-            font-family: sans-serif;
-            text-decoration: none;
-        }
-        .header {
-            background-color: #127369; ;
-            position: fixed;
-           
-        }
-        
-        main .princ{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            font-size: 26px;
-            margin-left: 2px;
-            color: #127369;
-            margin-top: 30px;
-        }
-        .nav-list a{
-            font-size: 14px;
-            color: white;
-            
-        }
-        
-        .consultoria-container{
-            flex-direction:row;
-            text-align: center;
-            flex-wrap:wrap ;
-            width: 5%;
-            
-        }
-        .consultoria{
-            align-items: center;
-            width: 10%;
-            }
-        .analises1{
-            display: flex;
-            flex-wrap: wrap;
-            gap:10px;
-        }
-        .container3-wrapper{
-            display: flex;
-            flex-wrap: wrap;
-            gap:10px;
-            flex-direction: column-reverse;
 
-        }
-        
+  @media (max-width: 750px) {
+    .hamburger {
+      display: block;
+      z-index: 1;
     }
-    
- 
+  
+    .nav-list {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(18, 114, 105, 1);
+      clip-path: circle(100px at 90% -15%);
+      transition: 1s ease-out;
+  
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      gap: 0;
+  
+      pointer-events: none;
+    }
+  
+    .nav-list a {
+      font-size: 24px;
+      opacity: 0;
+    }
+  
+    .nav-list li:nth-child(1) a {
+      transition: 0.5s 0.2s;
+    }
+  
+    .nav-list li:nth-child(2) a {
+      transition: 0.5s 0.4s;
+    }
+  
+    .nav-list li:nth-child(3) a {
+      transition: 0.5s 0.6s;
+    }
+  
+    /* Estilos ativos */
+  
+    .nav.active .nav-list {
+      clip-path: circle(1500px at 90% -15%);
+      pointer-events: all;
+    }
+  
+    .nav.active .nav-list a {
+      opacity: 1;
+    }
+  
+    .nav.active .hamburger {
+      position: fixed;
+      top: 26px;
+      right: 16px;
+      border-top-color: transparent;
+    }
+  
+    .nav.active .hamburger::before {
+      transform: rotate(135deg);
+    }
+  
+    .nav.active .hamburger::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+  }
+  @media (max-width: 750px) {
+    .titulo {
+      
+      width: 100%;
+    }
+    .capa {
+        display: none;
+    }
+    .solucoes{
+        width: 180px;
+        font-size: 30px;
+        background-color:#127369;
+        margin-left: 6px;
+        border-radius: 10px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-left: 80px;
+    }
+    .solucoes a{
+        text-align: center;
+        color: white;
+        font-weight: 600;
+    }
+    .analises-text{
+        width: 100%;
+    }
+    .empresasflex{
+        flex-direction: column;
+        
+        padding: 2%;
+        background-color: white;
+    }
+    .ebook{
+        flex-direction: column;
+    }
+}
+@media (max-width: 750px) {
+    .visao{
+      flex-direction: column;
+    }
+    .visao li{
+        margin-left: 9px;
+    }
+    .ensaios-txt{ 
+        width: 100%;
+    }
+}
+@media (max-width: 750px){
+    .consultoria{
+         display: none;
+    }
+    .analises-img{
+        display: none;
+    }
+    .analisefalhas-img{
+        display: none;
+    }
+    .ensaios-img{
+        display: none;
+    }
+    .residuos-img{
+        display: none;
+    }
+}
