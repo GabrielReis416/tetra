@@ -137,7 +137,15 @@
 }
 
 .ebook {
-    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-left: 2px;
+    color: white;
+}
+.subtit{
+    
     align-items: center;
     justify-content: space-between;
     font-size: 30px;
@@ -369,6 +377,7 @@ footer p{
     .capa {
         display: none;
     }
+   
     .solucoes{
         width: 180px;
         font-size: 30px;
@@ -396,8 +405,8 @@ footer p{
         padding: 2%;
         background-color: white;
     }
-    .ebook{
-        flex-direction: column;
+    .e-book-img{
+        display: none; 
     }
 }
 @media (max-width: 750px) {
