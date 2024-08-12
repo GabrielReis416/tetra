@@ -363,7 +363,7 @@ footer p{
   }
   @media (max-width: 750px) {
     .titulo {
-      
+      margin-top: 20px;
       width: 100%;
     }
     .capa {
