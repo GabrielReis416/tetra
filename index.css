@@ -119,9 +119,11 @@ main .princ{
     font-size: 26px;
     margin-left: 2px;
     color: #127369;
+    margin-top: 50px;
 }
 .titulo{
     width: 80%;
+    
 
 }
 .solucoes{
@@ -441,11 +443,15 @@ footer p{
 @media (max-width: 750px) {
     .visao{
       flex-direction: column;
+      
     }
     .visao li{
         margin-left: 9px;
     }
     .ensaios-txt{ 
+        width: 100%;
+    }
+    .e1{
         width: 100%;
     }
 }
@@ -469,4 +475,3 @@ footer p{
         align-items: center;
     }
 }
-
